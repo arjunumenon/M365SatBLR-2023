@@ -1,0 +1,271 @@
+[
+  {
+    "sample": {
+      "id": "pnp-add-app-catalog",
+      "properties": {
+        "title": "CLI - Add App Catalog to SharePoint site",
+        "description": "Script will create an app catalog for that site.",
+        "authors@odata.type": "Collection(String)",
+        "authors": [
+          "David Ramalho"
+        ],
+        "authorsPictures@odata.type": "Collection(String)",
+        "authorsPictures": [
+          null
+        ],
+        "imageUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/add-app-catalog/assets/preview.png",
+        "iconUrl": "https://raw.githubusercontent.com/pnp/media/master/pnp-logos-generics/png/teal/300w/pnp-samples-teal-300.png",
+        "url": "https://adoption.microsoft.com/sample-solution-gallery/sample/pnp-add-app-catalog/",
+        "createdDateTime": "2020-03-28T00:00:00.000Z",
+        "lastModifiedDateTime": "2023-02-28T00:00:00.000Z",
+        "products@odata.type": "Collection(String)",
+        "products": [
+          "SharePoint"
+        ],
+        "metadata@odata.type": "Collection(String)",
+        "metadata": [
+          "CLI-FOR-MICROSOFT365=6.3.0"
+        ]
+      },
+      "content": {
+        "value": "Script will create an app catalog for that site.",
+        "type": "text"
+      },
+      "acl": [
+        {
+          "accessType": "grant",
+          "type": "everyone",
+          "value": "everyone"
+        }
+      ]
+    },
+    "error": {
+      "statusCode": 500,
+      "code": "GeneralException",
+      "requestId": "3cbf424e-47c0-4bb5-ac17-f7ca3ad89099",
+      "date": "2023-12-01T16:30:08.000Z",
+      "body": "{\"code\":\"GeneralException\",\"message\":\"There was an internal server error while processing the request.\",\"innerError\":{\"date\":\"2023-12-01T22:00:08\",\"request-id\":\"3cbf424e-47c0-4bb5-ac17-f7ca3ad89099\",\"client-request-id\":\"dac165c2-3ed4-a8a6-6beb-94c2d3d790cd\"}}",
+      "headers": {}
+    }
+  },
+  {
+    "sample": {
+      "id": "pnp-hide-list-from-site-contents",
+      "properties": {
+        "title": "CLI - Hide SharePoint list from Site Contents",
+        "description": "hides the SharePoint list from the UI.",
+        "authors@odata.type": "Collection(String)",
+        "authors": [
+          "David Ramalho"
+        ],
+        "authorsPictures@odata.type": "Collection(String)",
+        "authorsPictures": [
+          null
+        ],
+        "imageUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/hide-list-from-site-contents/assets/preview.png",
+        "iconUrl": "https://raw.githubusercontent.com/pnp/media/master/pnp-logos-generics/png/teal/300w/pnp-samples-teal-300.png",
+        "url": "https://adoption.microsoft.com/sample-solution-gallery/sample/pnp-hide-list-from-site-contents/",
+        "createdDateTime": "2020-03-28T00:00:00.000Z",
+        "lastModifiedDateTime": "2023-02-28T00:00:00.000Z",
+        "products@odata.type": "Collection(String)",
+        "products": [
+          "SharePoint"
+        ],
+        "metadata@odata.type": "Collection(String)",
+        "metadata": [
+          "CLI-FOR-MICROSOFT365=6.3.0"
+        ]
+      },
+      "content": {
+        "value": "hides the SharePoint list from the UI.",
+        "type": "text"
+      },
+      "acl": [
+        {
+          "accessType": "grant",
+          "type": "everyone",
+          "value": "everyone"
+        }
+      ]
+    },
+    "error": {
+      "statusCode": 500,
+      "code": "GeneralException",
+      "requestId": "8378724d-1b1d-4b44-ac5d-3ea5146ccf40",
+      "date": "2023-12-01T16:30:10.000Z",
+      "body": "{\"code\":\"GeneralException\",\"message\":\"There was an internal server error while processing the request.\",\"innerError\":{\"date\":\"2023-12-01T22:00:10\",\"request-id\":\"8378724d-1b1d-4b44-ac5d-3ea5146ccf40\",\"client-request-id\":\"1cd6fe30-9f02-492d-cbdd-d5ae8c7544c1\"}}",
+      "headers": {}
+    }
+  },
+  {
+    "sample": {
+      "id": "pnp-ensure-siteassets-library",
+      "properties": {
+        "title": "Ensure the Site Assets Library is created",
+        "description": "Ensure that the Site Assets library is created.",
+        "authors@odata.type": "Collection(String)",
+        "authors": [
+          "Phil Harding"
+        ],
+        "authorsPictures@odata.type": "Collection(String)",
+        "authorsPictures": [
+          null
+        ],
+        "imageUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/ensure-siteassets-library/assets/preview.png",
+        "iconUrl": "https://raw.githubusercontent.com/pnp/media/master/pnp-logos-generics/png/teal/300w/pnp-samples-teal-300.png",
+        "url": "https://adoption.microsoft.com/sample-solution-gallery/sample/pnp-ensure-siteassets-library/",
+        "createdDateTime": "2020-04-12T00:00:00.000Z",
+        "lastModifiedDateTime": "2023-02-28T00:00:00.000Z",
+        "products@odata.type": "Collection(String)",
+        "products": [
+          "SharePoint"
+        ],
+        "metadata@odata.type": "Collection(String)",
+        "metadata": [
+          "CLI-FOR-MICROSOFT365=6.3.0"
+        ]
+      },
+      "content": {
+        "value": "Ensure that the Site Assets library is created.",
+        "type": "text"
+      },
+      "acl": [
+        {
+          "accessType": "grant",
+          "type": "everyone",
+          "value": "everyone"
+        }
+      ]
+    },
+    "error": {
+      "statusCode": 500,
+      "code": "GeneralException",
+      "requestId": "6f229868-2dac-4e00-b64c-47aaec2883f7",
+      "date": "2023-12-01T16:30:10.000Z",
+      "body": "{\"code\":\"GeneralException\",\"message\":\"There was an internal server error while processing the request.\",\"innerError\":{\"date\":\"2023-12-01T22:00:10\",\"request-id\":\"6f229868-2dac-4e00-b64c-47aaec2883f7\",\"client-request-id\":\"30f46132-f9e6-15c7-c859-b9cff21026e3\"}}",
+      "headers": {}
+    }
+  },
+  {
+    "sample": {
+      "id": "pnp-sp-dev-teams-sample-app-acs-calling",
+      "properties": {
+        "title": "Azure Communication Services – Teams InterOp with Call Routing",
+        "description": "The sample supports Azure Communication Services (ACS) and Teams Interoperation to allow citizen end users get in touch with an SME / Support Agent belonging to a business entity over a video call.",
+        "authors@odata.type": "Collection(String)",
+        "authors": [
+          "Sathya Raveendran",
+          "Saikrishna Neeli",
+          "Arun Kumar Anaparthi"
+        ],
+        "authorsPictures@odata.type": "Collection(String)",
+        "authorsPictures": [
+          null,
+          "https://github.com/Saikrishna-MSFT.png",
+          "https://github.com/arun-msft.png"
+        ],
+        "imageUrl": "https://github.com/pnp/teams-dev-samples/raw/main/samples/app-acs-calling/Docs/GIF/PlaceACall.gif",
+        "iconUrl": "https://raw.githubusercontent.com/pnp/media/master/pnp-logos-generics/png/teal/300w/pnp-samples-teal-300.png",
+        "url": "https://adoption.microsoft.com/sample-solution-gallery/sample/pnp-sp-dev-teams-sample-app-acs-calling/",
+        "createdDateTime": "2021-06-18T00:00:00.000Z",
+        "lastModifiedDateTime": "2021-06-18T00:00:00.000Z",
+        "products@odata.type": "Collection(String)",
+        "products": [
+          "Teams"
+        ],
+        "metadata@odata.type": "Collection(String)",
+        "metadata": [
+          "TEAMS-SAMPLE-SOURCE=pnp",
+          "TEAMS-SAMPLE-TYPE=demo",
+          "TEAMS-CLIENT-LANGUAGE=csharp",
+          "TEAMS-CLIENT-PLATFORM=spa",
+          "TEAMS-CLIENT-UI=",
+          "TEAMS-SERVER-LANGUAGE=",
+          "TEAMS-SERVER-PLATFORM=netcore",
+          "TEAMS-BOT-FRAMEWORK=bot46",
+          "TEAMS-FEATURES=bot",
+          "TEAMS-GENERATOR="
+        ]
+      },
+      "content": {
+        "value": "The sample supports Azure Communication Services (ACS) and Teams Interoperation to allow citizen end users get in touch with an SME / Support Agent belonging to a business entity over a video call.",
+        "type": "text"
+      },
+      "acl": [
+        {
+          "accessType": "grant",
+          "type": "everyone",
+          "value": "everyone"
+        }
+      ]
+    },
+    "error": {
+      "statusCode": 500,
+      "code": "GeneralException",
+      "requestId": "86a378f1-52c7-4669-a9f9-c218d711c52f",
+      "date": "2023-12-01T16:30:48.000Z",
+      "body": "{\"code\":\"GeneralException\",\"message\":\"There was an internal server error while processing the request.\",\"innerError\":{\"date\":\"2023-12-01T22:00:48\",\"request-id\":\"86a378f1-52c7-4669-a9f9-c218d711c52f\",\"client-request-id\":\"bd78451e-b1c6-e82e-90d1-eb1d59c6d0e8\"}}",
+      "headers": {}
+    }
+  },
+  {
+    "sample": {
+      "id": "pnp-sp-dev-teams-sample-app-ReporterPlus",
+      "properties": {
+        "title": "ReporterPlus - Teams Device Capabilities Application",
+        "description": "The sample app demonstrates the power of integrating Teams platform with device capabilities such as camera, QR or barcode scanner, photo gallery and microphone",
+        "authors@odata.type": "Collection(String)",
+        "authors": [
+          "Veera Venkata Sai Pothan Thota",
+          "Sathya Raveendran"
+        ],
+        "authorsPictures@odata.type": "Collection(String)",
+        "authorsPictures": [
+          "https://avatars.githubusercontent.com/u/80528379",
+          null
+        ],
+        "imageUrl": "https://pnp.github.io/teams-dev-samples/img/thumbnails/app-ReporterPlus.png",
+        "iconUrl": "https://raw.githubusercontent.com/pnp/media/master/pnp-logos-generics/png/teal/300w/pnp-samples-teal-300.png",
+        "url": "https://adoption.microsoft.com/sample-solution-gallery/sample/pnp-sp-dev-teams-sample-app-ReporterPlus/",
+        "createdDateTime": "2021-06-24T00:00:00.000Z",
+        "lastModifiedDateTime": "2021-06-24T00:00:00.000Z",
+        "products@odata.type": "Collection(String)",
+        "products": [
+          "Teams"
+        ],
+        "metadata@odata.type": "Collection(String)",
+        "metadata": [
+          "TEAMS-SAMPLE-SOURCE=pnp",
+          "TEAMS-SAMPLE-TYPE=demo",
+          "TEAMS-CLIENT-LANGUAGE=csharp",
+          "TEAMS-CLIENT-PLATFORM=spa",
+          "TEAMS-CLIENT-UI=",
+          "TEAMS-SERVER-LANGUAGE=",
+          "TEAMS-SERVER-PLATFORM=netcore",
+          "TEAMS-BOT-FRAMEWORK=bot46",
+          "TEAMS-FEATURES=bot, msgext",
+          "TEAMS-GENERATOR="
+        ]
+      },
+      "content": {
+        "value": "The sample app demonstrates the power of integrating Teams platform with device capabilities such as camera, QR or barcode scanner, photo gallery and microphone",
+        "type": "text"
+      },
+      "acl": [
+        {
+          "accessType": "grant",
+          "type": "everyone",
+          "value": "everyone"
+        }
+      ]
+    },
+    "error": {
+      "statusCode": 500,
+      "code": "GeneralException",
+      "requestId": "4ddab5c3-6d9c-4bad-a725-009cacaa2c69",
+      "date": "2023-12-01T16:30:51.000Z",
+      "body": "{\"code\":\"GeneralException\",\"message\":\"There was an internal server error while processing the request.\",\"innerError\":{\"date\":\"2023-12-01T22:00:51\",\"request-id\":\"4ddab5c3-6d9c-4bad-a725-009cacaa2c69\",\"client-request-id\":\"eb573c76-7a41-770d-7b81-11fb7642b9bd\"}}",
+      "headers": {}
+    }
+  }
+]

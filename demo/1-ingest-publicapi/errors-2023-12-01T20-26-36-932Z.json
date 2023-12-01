@@ -1,0 +1,1211 @@
+[
+  {
+    "sample": {
+      "id": "pnp-spfx-reference-scenarios-samples-react-retail-dashboard",
+      "properties": {
+        "title": "Contoso Retail Dashboard",
+        "description": "This is a sample end-to-end application, based on demo sample data, that shows you how to create a Microsoft Teams personal app with SharePoint Framework, hosting the solution also in Outlook.com and in the Office portal as a Microsoft 365 app. The solution also provides a sample Adaptive Card Extension (ACE) for Microsoft Viva Connection, still built with SharePoint Framework. The sample illustrates how to connect the ACE with the Teams personal app, providing custom arguments to the Teams personal app via deep links defined in the ACE. Last but not least, the solution illustrates how to create a Teams Message Extension for Search using Microsoft Teams Toolkit.",
+        "authors@odata.type": "Collection(String)",
+        "authors": [
+          "Paolo Pialorsi"
+        ],
+        "authorsPictures@odata.type": "Collection(String)",
+        "authorsPictures": [
+          "https://github.com/paolopia.png"
+        ],
+        "imageUrl": "https://raw.githubusercontent.com/pnp/spfx-reference-scenarios/main/samples/contoso-retail-demo/assets/teams-hosted.png",
+        "iconUrl": "https://raw.githubusercontent.com/pnp/media/master/pnp-logos-generics/png/teal/300w/pnp-samples-teal-300.png",
+        "url": "https://adoption.microsoft.com/sample-solution-gallery/sample/pnp-spfx-reference-scenarios-samples-react-retail-dashboard/",
+        "createdDateTime": "2023-05-26T00:00:00.000Z",
+        "lastModifiedDateTime": "2023-10-16T00:00:00.000Z",
+        "products@odata.type": "Collection(String)",
+        "products": [
+          "SharePoint",
+          "Viva",
+          "Microsoft Teams"
+        ],
+        "metadata@odata.type": "Collection(String)",
+        "metadata": [
+          "CLIENT-SIDE-DEV=TypeScript,React",
+          "SPFX-VERSION=1.17.1"
+        ]
+      },
+      "content": {
+        "value": "This is a sample end-to-end application, based on demo sample data, that shows you how to create a Microsoft Teams personal app with SharePoint Framework, hosting the solution also in Outlook.com and in the Office portal as a Microsoft 365 app. The solution also provides a sample Adaptive Card Extension (ACE) for Microsoft Viva Connection, still built with SharePoint Framework. The sample illustrates how to connect the ACE with the Teams personal app, providing custom arguments to the Teams personal app via deep links defined in the ACE. Last but not least, the solution illustrates how to create a Teams Message Extension for Search using Microsoft Teams Toolkit.",
+        "type": "text"
+      },
+      "acl": [
+        {
+          "accessType": "grant",
+          "type": "everyone",
+          "value": "everyone"
+        }
+      ]
+    },
+    "error": {
+      "statusCode": 400,
+      "code": "InvalidRequest",
+      "requestId": "b4fbfd4c-3f88-49f8-9d8c-cd3be813d4d4",
+      "date": "2023-12-01T14:55:02.000Z",
+      "body": "{\"code\":\"InvalidRequest\",\"message\":\"The request is malformed or incorrect.\",\"innerError\":{\"date\":\"2023-12-01T20:25:02\",\"request-id\":\"b4fbfd4c-3f88-49f8-9d8c-cd3be813d4d4\",\"client-request-id\":\"180c0506-8306-f522-ec72-284c31a165ce\"}}",
+      "headers": {}
+    }
+  },
+  {
+    "sample": {
+      "id": "pnp-sp-dev-spfx-web-parts-react-functional-component-with-data-fetch",
+      "properties": {
+        "title": "React Functional Component web part with data fetch",
+        "description": "This web part demonstrates building a React functional component that uses data from a remote service, in this case the Microsoft Graph, using the recently introduced React Hooks feature. The example web part renders a list of the user's Teams and, optionally, the channels in each Team.",
+        "authors@odata.type": "Collection(String)",
+        "authors": [
+          "Bill Ayers",
+          "Don Kirkham"
+        ],
+        "authorsPictures@odata.type": "Collection(String)",
+        "authorsPictures": [
+          "https://avatars.githubusercontent.com/u/10207194?s=460&v=4",
+          "https://github.com/DonKirkham.png"
+        ],
+        "imageUrl": "https://m365-galleries-fph0e4heghdzg5hy.z01.azurefd.net/samples/samples/pnp/sp-dev-fx-webparts/samples/react-functional-component-with-data-fetch/assets/screenshot.png",
+        "iconUrl": "https://raw.githubusercontent.com/pnp/media/master/pnp-logos-generics/png/teal/300w/pnp-samples-teal-300.png",
+        "url": "https://adoption.microsoft.com/sample-solution-gallery/sample/pnp-sp-dev-spfx-web-parts-react-functional-component-with-data-fetch/",
+        "createdDateTime": "2019-06-14T00:00:00.000Z",
+        "lastModifiedDateTime": "2023-10-10T00:00:00.000Z",
+        "products@odata.type": "Collection(String)",
+        "products": [
+          "SharePoint"
+        ],
+        "metadata@odata.type": "Collection(String)",
+        "metadata": [
+          "CLIENT-SIDE-DEV=React",
+          "SPFX-VERSION=1.18.0"
+        ]
+      },
+      "content": {
+        "value": "This web part demonstrates building a React functional component that uses data from a remote service, in this case the Microsoft Graph, using the recently introduced React Hooks feature. The example web part renders a list of the user's Teams and, optionally, the channels in each Team.",
+        "type": "text"
+      },
+      "acl": [
+        {
+          "accessType": "grant",
+          "type": "everyone",
+          "value": "everyone"
+        }
+      ]
+    },
+    "error": {
+      "statusCode": 400,
+      "code": "InvalidRequest",
+      "requestId": "177e56b4-db88-4f1a-b1a8-292d45b67b9f",
+      "date": "2023-12-01T14:55:03.000Z",
+      "body": "{\"code\":\"InvalidRequest\",\"message\":\"The request is malformed or incorrect.\",\"innerError\":{\"date\":\"2023-12-01T20:25:03\",\"request-id\":\"177e56b4-db88-4f1a-b1a8-292d45b67b9f\",\"client-request-id\":\"24441f95-ef2a-1c52-e4f5-716e14761cb4\"}}",
+      "headers": {}
+    }
+  },
+  {
+    "sample": {
+      "id": "pnp-sp-dev-spfx-web-parts-react-news-extension",
+      "properties": {
+        "title": "Targeted News using Microsoft Graph Open Extension",
+        "description": "This sample contains two SPFx web parts: User preferences web part and Curated news web part",
+        "authors@odata.type": "Collection(String)",
+        "authors": [
+          "Ejaz Hussain"
+        ],
+        "authorsPictures@odata.type": "Collection(String)",
+        "authorsPictures": [
+          "https://github.com/ejazhussain.png"
+        ],
+        "imageUrl": "https://m365-galleries-fph0e4heghdzg5hy.z01.azurefd.net/samples/samples/pnp/sp-dev-fx-webparts/samples/react-news-extension/assets/curated-news.png",
+        "iconUrl": "https://raw.githubusercontent.com/pnp/media/master/pnp-logos-generics/png/teal/300w/pnp-samples-teal-300.png",
+        "url": "https://adoption.microsoft.com/sample-solution-gallery/sample/pnp-sp-dev-spfx-web-parts-react-news-extension/",
+        "createdDateTime": "2023-10-04T00:00:00.000Z",
+        "lastModifiedDateTime": "2023-10-04T00:00:00.000Z",
+        "products@odata.type": "Collection(String)",
+        "products": [
+          "SharePoint"
+        ],
+        "metadata@odata.type": "Collection(String)",
+        "metadata": [
+          "CLIENT-SIDE-DEV=React",
+          "SPFX-VERSION=1.17.4"
+        ]
+      },
+      "content": {
+        "value": "This sample contains two SPFx web parts: User preferences web part and Curated news web part",
+        "type": "text"
+      },
+      "acl": [
+        {
+          "accessType": "grant",
+          "type": "everyone",
+          "value": "everyone"
+        }
+      ]
+    },
+    "error": {
+      "statusCode": 400,
+      "code": "InvalidRequest",
+      "requestId": "9e095404-a571-40ce-b832-067c5bca0fad",
+      "date": "2023-12-01T14:55:04.000Z",
+      "body": "{\"code\":\"InvalidRequest\",\"message\":\"The request is malformed or incorrect.\",\"innerError\":{\"date\":\"2023-12-01T20:25:04\",\"request-id\":\"9e095404-a571-40ce-b832-067c5bca0fad\",\"client-request-id\":\"574c5c33-438c-14bd-1278-6a77dada2a21\"}}",
+      "headers": {}
+    }
+  },
+  {
+    "sample": {
+      "id": "pnp-sp-dev-spfx-extensions-react-modern-version-history",
+      "properties": {
+        "title": "Modern Version History",
+        "description": "An extension modernizing the version history experience in SharePoint Online.",
+        "authors@odata.type": "Collection(String)",
+        "authors": [
+          "Dan Toft",
+          "Emanuele Bartolesi",
+          "Tobias Maestrini"
+        ],
+        "authorsPictures@odata.type": "Collection(String)",
+        "authorsPictures": [
+          "https://github.com/Tanddant.png",
+          "https://github.com/kasuken.png",
+          "https://github.com/tmaestrini.png"
+        ],
+        "imageUrl": "https://m365-galleries-fph0e4heghdzg5hy.z01.azurefd.net/samples/samples/pnp/sp-dev-fx-extensions/samples/react-modern-version-history/assets/demo.gif",
+        "iconUrl": "https://raw.githubusercontent.com/pnp/media/master/pnp-logos-generics/png/teal/300w/pnp-samples-teal-300.png",
+        "url": "https://adoption.microsoft.com/sample-solution-gallery/sample/pnp-sp-dev-spfx-extensions-react-modern-version-history/",
+        "createdDateTime": "2023-09-01T00:00:00.000Z",
+        "lastModifiedDateTime": "2023-10-02T00:00:00.000Z",
+        "products@odata.type": "Collection(String)",
+        "products": [
+          "SharePoint"
+        ],
+        "metadata@odata.type": "Collection(String)",
+        "metadata": [
+          "CLIENT-SIDE-DEV=React",
+          "SPFX-VERSION=1.17.4"
+        ]
+      },
+      "content": {
+        "value": "An extension modernizing the version history experience in SharePoint Online.",
+        "type": "text"
+      },
+      "acl": [
+        {
+          "accessType": "grant",
+          "type": "everyone",
+          "value": "everyone"
+        }
+      ]
+    },
+    "error": {
+      "statusCode": 400,
+      "code": "InvalidRequest",
+      "requestId": "a8928651-a350-419a-9121-1092dded7799",
+      "date": "2023-12-01T14:55:04.000Z",
+      "body": "{\"code\":\"InvalidRequest\",\"message\":\"The request is malformed or incorrect.\",\"innerError\":{\"date\":\"2023-12-01T20:25:04\",\"request-id\":\"a8928651-a350-419a-9121-1092dded7799\",\"client-request-id\":\"66d558a5-a2d5-322f-eaf1-e09c01e2df65\"}}",
+      "headers": {}
+    }
+  },
+  {
+    "sample": {
+      "id": "pnp-list-formatting-text-startswith-callingcodes",
+      "properties": {
+        "title": "Text StartsWith Calling Codes",
+        "description": "This sample demonstrates using the indexOf function (O365 only) to test if text starts with a given value. Using the international calling code at the start of a phone number, the correct country's flag is shown next to the phone number. The same nested conditionals are also used for the tooltip.",
+        "authors@odata.type": "Collection(String)",
+        "authors": [
+          "Chris Kent"
+        ],
+        "authorsPictures@odata.type": "Collection(String)",
+        "authorsPictures": [
+          "https://github.com/thechriskent.png"
+        ],
+        "imageUrl": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/text-startswith-callingcodes/assets/screenshot.png",
+        "iconUrl": "https://raw.githubusercontent.com/pnp/media/master/pnp-logos-generics/png/teal/300w/pnp-samples-teal-300.png",
+        "url": "https://adoption.microsoft.com/sample-solution-gallery/sample/pnp-list-formatting-text-startswith-callingcodes/",
+        "createdDateTime": "2019-02-05T00:00:00.000Z",
+        "lastModifiedDateTime": "2023-09-29T00:00:00.000Z",
+        "products@odata.type": "Collection(String)",
+        "products": [
+          "SharePoint",
+          "Microsoft Lists"
+        ],
+        "metadata@odata.type": "Collection(String)",
+        "metadata": [
+          "LIST-SAMPLE-TYPE=Column",
+          "SHAREPOINT-COMPATIBILITY=SharePoint Online",
+          "SAMPLE-CATEGORIES=",
+          "LIST-COLUMN-TYPE=General",
+          "FORMATTING-TOKENS=",
+          "FORMATTING-OPERATORS=indexOf",
+          "FORMATTING-ACTIONS=",
+          "FORMATTING-FEATURES=",
+          "CLASSES="
+        ]
+      },
+      "content": {
+        "value": "This sample demonstrates using the indexOf function (O365 only) to test if text starts with a given value. Using the international calling code at the start of a phone number, the correct country's flag is shown next to the phone number. The same nested conditionals are also used for the tooltip.",
+        "type": "text"
+      },
+      "acl": [
+        {
+          "accessType": "grant",
+          "type": "everyone",
+          "value": "everyone"
+        }
+      ]
+    },
+    "error": {
+      "statusCode": 400,
+      "code": "InvalidRequest",
+      "requestId": "a2477522-010a-4338-b818-08928a2db487",
+      "date": "2023-12-01T14:55:04.000Z",
+      "body": "{\"code\":\"InvalidRequest\",\"message\":\"The request is malformed or incorrect.\",\"innerError\":{\"date\":\"2023-12-01T20:25:04\",\"request-id\":\"a2477522-010a-4338-b818-08928a2db487\",\"client-request-id\":\"98b1d528-56bf-5d22-c0c5-6a6f00e98e9e\"}}",
+      "headers": {}
+    }
+  },
+  {
+    "sample": {
+      "id": "pnp-powerplatform-prompts-social-media-tracker-for-analytics",
+      "properties": {
+        "title": "Social Media Tracker for Analytics",
+        "description": "This prompt helps with tracking social media product announcement posts for later analysis.",
+        "authors@odata.type": "Collection(String)",
+        "authors": [
+          "Ralph Rivas"
+        ],
+        "authorsPictures@odata.type": "Collection(String)",
+        "authorsPictures": [
+          "https://github.com/bigpix2000.png"
+        ],
+        "imageUrl": "https://raw.githubusercontent.com/pnp/powerplatform-prompts/blob/main/templates/previewprompts.png",
+        "iconUrl": "https://raw.githubusercontent.com/pnp/media/master/pnp-logos-generics/png/teal/300w/pnp-samples-teal-300.png",
+        "url": "https://adoption.microsoft.com/sample-solution-gallery/sample/pnp-powerplatform-prompts-social-media-tracker-for-analytics/",
+        "createdDateTime": "2023-09-25T00:00:00.000Z",
+        "lastModifiedDateTime": "2023-09-25T00:00:00.000Z",
+        "products@odata.type": "Collection(String)",
+        "products": [
+          "Power Appa",
+          "Power Platform"
+        ],
+        "metadata@odata.type": "Collection(String)",
+        "metadata": [
+          "POWERAPPS-CUSTOMCONNECTOR=No"
+        ]
+      },
+      "content": {
+        "value": "This prompt helps with tracking social media product announcement posts for later analysis.",
+        "type": "text"
+      },
+      "acl": [
+        {
+          "accessType": "grant",
+          "type": "everyone",
+          "value": "everyone"
+        }
+      ]
+    },
+    "error": {
+      "statusCode": 400,
+      "code": "InvalidRequest",
+      "requestId": "389c8621-65f3-4e5a-8a6f-e80ee0bc970d",
+      "date": "2023-12-01T14:55:05.000Z",
+      "body": "{\"code\":\"InvalidRequest\",\"message\":\"The request is malformed or incorrect.\",\"innerError\":{\"date\":\"2023-12-01T20:25:05\",\"request-id\":\"389c8621-65f3-4e5a-8a6f-e80ee0bc970d\",\"client-request-id\":\"670aabb7-5b64-0c12-6659-07c019b19068\"}}",
+      "headers": {}
+    }
+  },
+  {
+    "sample": {
+      "id": "pnp-list-formatting-search-page-link-tiles",
+      "properties": {
+        "title": "Links to Search Page",
+        "description": "This sample demonstrates displaying links to the search page. When you open the search page, it displays the search results where the query registered in the Query column of the item has been executed.",
+        "authors@odata.type": "Collection(String)",
+        "authors": [
+          "Tetsuya Kawahara"
+        ],
+        "authorsPictures@odata.type": "Collection(String)",
+        "authorsPictures": [
+          "https://github.com/tecchan1107.png"
+        ],
+        "imageUrl": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/search-page-link-tiles/assets/screenshot.png",
+        "iconUrl": "https://raw.githubusercontent.com/pnp/media/master/pnp-logos-generics/png/teal/300w/pnp-samples-teal-300.png",
+        "url": "https://adoption.microsoft.com/sample-solution-gallery/sample/pnp-list-formatting-search-page-link-tiles/",
+        "createdDateTime": "2023-08-15T00:00:00.000Z",
+        "lastModifiedDateTime": "2023-08-15T00:00:00.000Z",
+        "products@odata.type": "Collection(String)",
+        "products": [
+          "SharePoint",
+          "Microsoft Lists"
+        ],
+        "metadata@odata.type": "Collection(String)",
+        "metadata": [
+          "LIST-SAMPLE-TYPE=View",
+          "SHAREPOINT-COMPATIBILITY=SharePoint Online",
+          "SAMPLE-CATEGORIES=Gallery, Grouped, Icons",
+          "LIST-COLUMN-TYPE=",
+          "FORMATTING-TOKENS=@currentWeb, @group.fieldData",
+          "FORMATTING-OPERATORS=substring, indexOf",
+          "FORMATTING-ACTIONS=defaultClick, setValue",
+          "FORMATTING-FEATURES=hideSelection, customCardProps",
+          "CLASSES=ms-bgColor-neutralLighter, ms-bgColor-themeLighter--hover, ms-bgColor-themeLighter--hover, ms-fontColor-neutralPrimary, ms-fontColor-neutralTertiaryAlt, ms-fontColor-themePrimary, ms-fontColor-themePrimary, ms-font-l"
+        ]
+      },
+      "content": {
+        "value": "This sample demonstrates displaying links to the search page. When you open the search page, it displays the search results where the query registered in the Query column of the item has been executed.",
+        "type": "text"
+      },
+      "acl": [
+        {
+          "accessType": "grant",
+          "type": "everyone",
+          "value": "everyone"
+        }
+      ]
+    },
+    "error": {
+      "statusCode": 400,
+      "code": "InvalidRequest",
+      "requestId": "bc909f4b-f403-412a-ac40-9322d7d47cdc",
+      "date": "2023-12-01T14:55:07.000Z",
+      "body": "{\"code\":\"InvalidRequest\",\"message\":\"The request is malformed or incorrect.\",\"innerError\":{\"date\":\"2023-12-01T20:25:07\",\"request-id\":\"bc909f4b-f403-412a-ac40-9322d7d47cdc\",\"client-request-id\":\"cacf1c1f-a964-836b-7799-a01ed5f2e8c2\"}}",
+      "headers": {}
+    }
+  },
+  {
+    "sample": {
+      "id": "pnp-list-formatting-multi-lookup-projected-field",
+      "properties": {
+        "title": "Multi-lookup fields and projected fields",
+        "description": "Lookup columns that support multiple values can be formatted using the advanced `forEach` property. Unfortunately, the way values are returned for any projected fields (additional columns associated to your lookup column) can present unique challenges. This sample provides two formats illustrating the difference in how these columns are formatted.",
+        "authors@odata.type": "Collection(String)",
+        "authors": [
+          "Chris Kent",
+          "Tim Hunt"
+        ],
+        "authorsPictures@odata.type": "Collection(String)",
+        "authorsPictures": [
+          "https://github.com/thechriskent.png",
+          "https://github.com/timberrr.png"
+        ],
+        "imageUrl": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/multi-lookup-projected-field/assets/screenshot.png",
+        "iconUrl": "https://raw.githubusercontent.com/pnp/media/master/pnp-logos-generics/png/teal/300w/pnp-samples-teal-300.png",
+        "url": "https://adoption.microsoft.com/sample-solution-gallery/sample/pnp-list-formatting-multi-lookup-projected-field/",
+        "createdDateTime": "2021-04-22T00:00:00.000Z",
+        "lastModifiedDateTime": "2023-08-14T00:00:00.000Z",
+        "products@odata.type": "Collection(String)",
+        "products": [
+          "SharePoint",
+          "Microsoft Lists"
+        ],
+        "metadata@odata.type": "Collection(String)",
+        "metadata": [
+          "LIST-SAMPLE-TYPE=Column",
+          "SHAREPOINT-COMPATIBILITY=SharePoint Online",
+          "SAMPLE-CATEGORIES=",
+          "LIST-COLUMN-TYPE=Multi-Lookup",
+          "FORMATTING-TOKENS=",
+          "FORMATTING-OPERATORS=split",
+          "FORMATTING-ACTIONS=",
+          "FORMATTING-FEATURES=forEach",
+          "CLASSES="
+        ]
+      },
+      "content": {
+        "value": "Lookup columns that support multiple values can be formatted using the advanced `forEach` property. Unfortunately, the way values are returned for any projected fields (additional columns associated to your lookup column) can present unique challenges. This sample provides two formats illustrating the difference in how these columns are formatted.",
+        "type": "text"
+      },
+      "acl": [
+        {
+          "accessType": "grant",
+          "type": "everyone",
+          "value": "everyone"
+        }
+      ]
+    },
+    "error": {
+      "statusCode": 400,
+      "code": "InvalidRequest",
+      "requestId": "e39bfd75-49a7-409e-9d3b-b8982b155ff2",
+      "date": "2023-12-01T14:55:08.000Z",
+      "body": "{\"code\":\"InvalidRequest\",\"message\":\"The request is malformed or incorrect.\",\"innerError\":{\"date\":\"2023-12-01T20:25:08\",\"request-id\":\"e39bfd75-49a7-409e-9d3b-b8982b155ff2\",\"client-request-id\":\"fd046e7b-75a9-baf7-ba73-9493c6cdecad\"}}",
+      "headers": {}
+    }
+  },
+  {
+    "sample": {
+      "id": "spo-add-sppkg-ad-app-certificate",
+      "properties": {
+        "title": "Add SharePoint Framework package to the app catalog and Azure AD app certificate",
+        "description": "This is example script how to add SharePoint Framework package to the app catalog using Microsoft 365 CLI and Azure AD app certificate.",
+        "authors@odata.type": "Collection(String)",
+        "authors": [
+          "Valeras Narbutas"
+        ],
+        "authorsPictures@odata.type": "Collection(String)",
+        "authorsPictures": [
+          "https://avatars.githubusercontent.com/u/16476453?v=4"
+        ],
+        "imageUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-sppkg-ad-app-certificate/assets/preview.png",
+        "iconUrl": "https://raw.githubusercontent.com/pnp/media/master/pnp-logos-generics/png/teal/300w/pnp-samples-teal-300.png",
+        "url": "https://adoption.microsoft.com/sample-solution-gallery/sample/spo-add-sppkg-ad-app-certificate/",
+        "createdDateTime": "2023-07-27T00:00:00.000Z",
+        "lastModifiedDateTime": "2023-07-27T00:00:00.000Z",
+        "products@odata.type": "Collection(String)",
+        "products": [
+          "SharePoint",
+          "Microsoft 365 cli"
+        ],
+        "metadata@odata.type": "Collection(String)",
+        "metadata": [
+          "CLI-FOR-MICROSOFT365=6.14.22"
+        ]
+      },
+      "content": {
+        "value": "This is example script how to add SharePoint Framework package to the app catalog using Microsoft 365 CLI and Azure AD app certificate.",
+        "type": "text"
+      },
+      "acl": [
+        {
+          "accessType": "grant",
+          "type": "everyone",
+          "value": "everyone"
+        }
+      ]
+    },
+    "error": {
+      "statusCode": 400,
+      "code": "InvalidRequest",
+      "requestId": "e50dc7f0-253e-4051-afb3-d05a14f5aa40",
+      "date": "2023-12-01T14:55:09.000Z",
+      "body": "{\"code\":\"InvalidRequest\",\"message\":\"The request is malformed or incorrect.\",\"innerError\":{\"date\":\"2023-12-01T20:25:09\",\"request-id\":\"e50dc7f0-253e-4051-afb3-d05a14f5aa40\",\"client-request-id\":\"c9f2d2b1-c09d-9143-3fb1-a79141137baa\"}}",
+      "headers": {}
+    }
+  },
+  {
+    "sample": {
+      "id": "pnp-sp-dev-spfx-web-parts-react-enhanced-powerapps",
+      "properties": {
+        "title": "Enhanced Power Apps",
+        "description": "Adds dynamic resizing, theme awareness, and dynamic data to embedded Power Apps",
+        "authors@odata.type": "Collection(String)",
+        "authors": [
+          "Hugo Bernier",
+          "Babak Danyal",
+          "Kunj Balkrishna Sangani"
+        ],
+        "authorsPictures@odata.type": "Collection(String)",
+        "authorsPictures": [
+          "https://github.com/hugoabernier.png",
+          "https://github.com/babakdanyal.png",
+          "https://github.com/kunj-sangani.png"
+        ],
+        "imageUrl": "https://m365-galleries-fph0e4heghdzg5hy.z01.azurefd.net/samples/samples/pnp/sp-dev-fx-webparts/samples/react-enhanced-powerapps/assets/enhanced-power-apps.gif",
+        "iconUrl": "https://raw.githubusercontent.com/pnp/media/master/pnp-logos-generics/png/teal/300w/pnp-samples-teal-300.png",
+        "url": "https://adoption.microsoft.com/sample-solution-gallery/sample/pnp-sp-dev-spfx-web-parts-react-enhanced-powerapps/",
+        "createdDateTime": "2020-07-26T00:00:00.000Z",
+        "lastModifiedDateTime": "2023-06-27T00:00:00.000Z",
+        "products@odata.type": "Collection(String)",
+        "products": [
+          "SharePoint"
+        ],
+        "metadata@odata.type": "Collection(String)",
+        "metadata": [
+          "CLIENT-SIDE-DEV=React",
+          "SPFX-VERSION=1.13.1"
+        ]
+      },
+      "content": {
+        "value": "Adds dynamic resizing, theme awareness, and dynamic data to embedded Power Apps",
+        "type": "text"
+      },
+      "acl": [
+        {
+          "accessType": "grant",
+          "type": "everyone",
+          "value": "everyone"
+        }
+      ]
+    },
+    "error": {
+      "statusCode": 400,
+      "code": "InvalidRequest",
+      "requestId": "b1ef6e3d-4914-4020-b19c-fbc6ea2417ff",
+      "date": "2023-12-01T14:55:11.000Z",
+      "body": "{\"code\":\"InvalidRequest\",\"message\":\"The request is malformed or incorrect.\",\"innerError\":{\"date\":\"2023-12-01T20:25:11\",\"request-id\":\"b1ef6e3d-4914-4020-b19c-fbc6ea2417ff\",\"client-request-id\":\"d4ec5b73-f683-e71c-0393-76a6a2960ec0\"}}",
+      "headers": {}
+    }
+  },
+  {
+    "sample": {
+      "id": "pnp-powerplatform-prompts-lead-generation",
+      "properties": {
+        "title": "Lead Generation and Follow Up",
+        "description": "This prompt helps with automating lead generation and follow up",
+        "authors@odata.type": "Collection(String)",
+        "authors": [
+          "April Dunnam"
+        ],
+        "authorsPictures@odata.type": "Collection(String)",
+        "authorsPictures": [
+          "https://github.com/aprildunnam.png"
+        ],
+        "imageUrl": "https://raw.githubusercontent.com/pnp/powerplatform-prompts/blob/main/templates/previewprompts.png",
+        "iconUrl": "https://raw.githubusercontent.com/pnp/media/master/pnp-logos-generics/png/teal/300w/pnp-samples-teal-300.png",
+        "url": "https://adoption.microsoft.com/sample-solution-gallery/sample/pnp-powerplatform-prompts-lead-generation/",
+        "createdDateTime": "2023-06-22T00:00:00.000Z",
+        "lastModifiedDateTime": "2023-06-22T00:00:00.000Z",
+        "products@odata.type": "Collection(String)",
+        "products": [
+          "Power Automate",
+          "Power Platform"
+        ],
+        "metadata@odata.type": "Collection(String)",
+        "metadata": [
+          "POWERAPPS-CUSTOMCONNECTOR=No"
+        ]
+      },
+      "content": {
+        "value": "This prompt helps with automating lead generation and follow up",
+        "type": "text"
+      },
+      "acl": [
+        {
+          "accessType": "grant",
+          "type": "everyone",
+          "value": "everyone"
+        }
+      ]
+    },
+    "error": {
+      "statusCode": 400,
+      "code": "InvalidRequest",
+      "requestId": "67d77889-b95c-4f42-bdb1-1d610eb422de",
+      "date": "2023-12-01T14:55:11.000Z",
+      "body": "{\"code\":\"InvalidRequest\",\"message\":\"The request is malformed or incorrect.\",\"innerError\":{\"date\":\"2023-12-01T20:25:11\",\"request-id\":\"67d77889-b95c-4f42-bdb1-1d610eb422de\",\"client-request-id\":\"584d9896-1189-1580-05a7-7598c95c95a0\"}}",
+      "headers": {}
+    }
+  },
+  {
+    "sample": {
+      "id": "spo-remove-page-title-area",
+      "properties": {
+        "title": "Remove Title Area from SharePoint Page",
+        "description": "This sample script shows how to remove the title area from SharePoint online site page using PnP PowerShell and CLI for Microsoft 365.",
+        "authors@odata.type": "Collection(String)",
+        "authors": [
+          "Ganesh Sanap"
+        ],
+        "authorsPictures@odata.type": "Collection(String)",
+        "authorsPictures": [
+          "https://avatars.githubusercontent.com/u/25476310?v=4"
+        ],
+        "imageUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-remove-page-title-area/assets/preview.png",
+        "iconUrl": "https://raw.githubusercontent.com/pnp/media/master/pnp-logos-generics/png/teal/300w/pnp-samples-teal-300.png",
+        "url": "https://adoption.microsoft.com/sample-solution-gallery/sample/spo-remove-page-title-area/",
+        "createdDateTime": "2023-02-23T00:00:00.000Z",
+        "lastModifiedDateTime": "2023-04-28T00:00:00.000Z",
+        "products@odata.type": "Collection(String)",
+        "products": [
+          "SharePoint"
+        ],
+        "metadata@odata.type": "Collection(String)",
+        "metadata": [
+          "PNP-POWERSHELL=1.11.0",
+          "CLI-FOR-MICROSOFT365=6.6.0"
+        ]
+      },
+      "content": {
+        "value": "This sample script shows how to remove the title area from SharePoint online site page using PnP PowerShell and CLI for Microsoft 365.",
+        "type": "text"
+      },
+      "acl": [
+        {
+          "accessType": "grant",
+          "type": "everyone",
+          "value": "everyone"
+        }
+      ]
+    },
+    "error": {
+      "statusCode": 400,
+      "code": "InvalidRequest",
+      "requestId": "aeabc0ed-66f2-4471-a12c-9c4f33c6c708",
+      "date": "2023-12-01T14:55:15.000Z",
+      "body": "{\"code\":\"InvalidRequest\",\"message\":\"The request is malformed or incorrect.\",\"innerError\":{\"date\":\"2023-12-01T20:25:15\",\"request-id\":\"aeabc0ed-66f2-4471-a12c-9c4f33c6c708\",\"client-request-id\":\"75c0284f-aa13-e721-91a5-5047d177d2b6\"}}",
+      "headers": {}
+    }
+  },
+  {
+    "sample": {
+      "id": "spo-empty-recycle-bin",
+      "properties": {
+        "title": "Empty SharePoint Online Site Recycle Bin",
+        "description": "This sample script shows how to empty SharePoint online site first stage and second stage recycle bin",
+        "authors@odata.type": "Collection(String)",
+        "authors": [
+          "Ganesh Sanap"
+        ],
+        "authorsPictures@odata.type": "Collection(String)",
+        "authorsPictures": [
+          "https://avatars.githubusercontent.com/u/25476310?v=4"
+        ],
+        "imageUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-empty-recycle-bin/assets/preview.png",
+        "iconUrl": "https://raw.githubusercontent.com/pnp/media/master/pnp-logos-generics/png/teal/300w/pnp-samples-teal-300.png",
+        "url": "https://adoption.microsoft.com/sample-solution-gallery/sample/spo-empty-recycle-bin/",
+        "createdDateTime": "2023-03-30T00:00:00.000Z",
+        "lastModifiedDateTime": "2023-04-22T00:00:00.000Z",
+        "products@odata.type": "Collection(String)",
+        "products": [
+          "SharePoint"
+        ],
+        "metadata@odata.type": "Collection(String)",
+        "metadata": [
+          "PNP-POWERSHELL=1.12.0",
+          "CLI-FOR-MICROSOFT365=6.7.0 (beta)"
+        ]
+      },
+      "content": {
+        "value": "This sample script shows how to empty SharePoint online site first stage and second stage recycle bin",
+        "type": "text"
+      },
+      "acl": [
+        {
+          "accessType": "grant",
+          "type": "everyone",
+          "value": "everyone"
+        }
+      ]
+    },
+    "error": {
+      "statusCode": 400,
+      "code": "InvalidRequest",
+      "requestId": "029c2c7a-72ae-4a27-a627-be8578b9b668",
+      "date": "2023-12-01T14:55:16.000Z",
+      "body": "{\"code\":\"InvalidRequest\",\"message\":\"The request is malformed or incorrect.\",\"innerError\":{\"date\":\"2023-12-01T20:25:16\",\"request-id\":\"029c2c7a-72ae-4a27-a627-be8578b9b668\",\"client-request-id\":\"aaaa4528-7acc-844c-9bd9-6894b4f91400\"}}",
+      "headers": {}
+    }
+  },
+  {
+    "sample": {
+      "id": "spo-remove-site-scripts",
+      "properties": {
+        "title": "Delete custom SharePoint site scripts",
+        "description": "Remove Site scripts that ends up just hanging around in your tenant. Use the scripts below to get rid of them",
+        "authors@odata.type": "Collection(String)",
+        "authors": [
+          "Paul Bullock",
+          "Ganesh Sanap"
+        ],
+        "authorsPictures@odata.type": "Collection(String)",
+        "authorsPictures": [
+          "https://avatars.githubusercontent.com/u/8781041?v=4",
+          "https://avatars.githubusercontent.com/u/25476310?v=4"
+        ],
+        "imageUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-remove-site-scripts/assets/preview.png",
+        "iconUrl": "https://raw.githubusercontent.com/pnp/media/master/pnp-logos-generics/png/teal/300w/pnp-samples-teal-300.png",
+        "url": "https://adoption.microsoft.com/sample-solution-gallery/sample/spo-remove-site-scripts/",
+        "createdDateTime": "2020-08-23T00:00:00.000Z",
+        "lastModifiedDateTime": "2023-04-21T00:00:00.000Z",
+        "products@odata.type": "Collection(String)",
+        "products": [
+          "SharePoint"
+        ],
+        "metadata@odata.type": "Collection(String)",
+        "metadata": [
+          "SPO-MANAGEMENT-SHELL=16.0.21116.12000",
+          "PNP-POWERSHELL=1.12.0",
+          "CLI-FOR-MICROSOFT365=6.3.0"
+        ]
+      },
+      "content": {
+        "value": "Remove Site scripts that ends up just hanging around in your tenant. Use the scripts below to get rid of them",
+        "type": "text"
+      },
+      "acl": [
+        {
+          "accessType": "grant",
+          "type": "everyone",
+          "value": "everyone"
+        }
+      ]
+    },
+    "error": {
+      "statusCode": 400,
+      "code": "InvalidRequest",
+      "requestId": "5fca36aa-b70f-4fc9-b43a-fad1d493986f",
+      "date": "2023-12-01T14:55:16.000Z",
+      "body": "{\"code\":\"InvalidRequest\",\"message\":\"The request is malformed or incorrect.\",\"innerError\":{\"date\":\"2023-12-01T20:25:16\",\"request-id\":\"5fca36aa-b70f-4fc9-b43a-fad1d493986f\",\"client-request-id\":\"0ed15f2b-841d-52e9-7125-62e8c1e16be1\"}}",
+      "headers": {}
+    }
+  },
+  {
+    "sample": {
+      "id": "pnp-sp-fx-aces-multi-forms",
+      "properties": {
+        "title": "Multiple Forms",
+        "description": "This Adaptive Card Extension shows how to have a single ACE card to display multiple Microsoft Forms or Multiple Power Apps that opens in the Stage View on Teams.",
+        "authors@odata.type": "Collection(String)",
+        "authors": [
+          "Marcus Castro"
+        ],
+        "authorsPictures@odata.type": "Collection(String)",
+        "authorsPictures": [
+          "https://github.com/marcus-castro-sp.png"
+        ],
+        "imageUrl": "https://raw.githubusercontent.com/pnp/sp-dev-fx-aces/main/samples/BasicCard-Multiple-Forms-Apps/assets/ACEForms.png",
+        "iconUrl": "https://raw.githubusercontent.com/pnp/media/master/pnp-logos-generics/png/teal/300w/pnp-samples-teal-300.png",
+        "url": "https://adoption.microsoft.com/sample-solution-gallery/sample/pnp-sp-fx-aces-multi-forms/",
+        "createdDateTime": "2023-04-13T00:00:00.000Z",
+        "lastModifiedDateTime": "2023-04-13T00:00:00.000Z",
+        "products@odata.type": "Collection(String)",
+        "products": [
+          "SharePoint",
+          "Viva"
+        ],
+        "metadata@odata.type": "Collection(String)",
+        "metadata": [
+          "CLIENT-SIDE-DEV=React",
+          "SPFX-VERSION=1.16.1"
+        ]
+      },
+      "content": {
+        "value": "This Adaptive Card Extension shows how to have a single ACE card to display multiple Microsoft Forms or Multiple Power Apps that opens in the Stage View on Teams.",
+        "type": "text"
+      },
+      "acl": [
+        {
+          "accessType": "grant",
+          "type": "everyone",
+          "value": "everyone"
+        }
+      ]
+    },
+    "error": {
+      "statusCode": 400,
+      "code": "InvalidRequest",
+      "requestId": "0e7f1821-0469-4fcf-8ab8-c43ad7b8a792",
+      "date": "2023-12-01T14:55:16.000Z",
+      "body": "{\"code\":\"InvalidRequest\",\"message\":\"The request is malformed or incorrect.\",\"innerError\":{\"date\":\"2023-12-01T20:25:16\",\"request-id\":\"0e7f1821-0469-4fcf-8ab8-c43ad7b8a792\",\"client-request-id\":\"a9250dc0-dc9d-b90b-839a-7f1e18a425c7\"}}",
+      "headers": {}
+    }
+  },
+  {
+    "sample": {
+      "id": "pnp-sp-dev-spfx-web-parts-react-openai-summarise-page-content",
+      "properties": {
+        "title": "Multilingual SharePoint Page Summarization with Open AI API and Microsoft Graph Pages API",
+        "description": "This sample contains a SharePoint Framework web part and an Azure function that uses the Open AI API to summarize a SharePoint page in multiple languages.",
+        "authors@odata.type": "Collection(String)",
+        "authors": [
+          "Anoop Tatti"
+        ],
+        "authorsPictures@odata.type": "Collection(String)",
+        "authorsPictures": [
+          "https://github.com/anoopt.png"
+        ],
+        "imageUrl": "https://m365-galleries-fph0e4heghdzg5hy.z01.azurefd.net/samples/samples/pnp/sp-dev-fx-webparts/samples/react-openai-summarise-page-content/assets/page_summary.png",
+        "iconUrl": "https://raw.githubusercontent.com/pnp/media/master/pnp-logos-generics/png/teal/300w/pnp-samples-teal-300.png",
+        "url": "https://adoption.microsoft.com/sample-solution-gallery/sample/pnp-sp-dev-spfx-web-parts-react-openai-summarise-page-content/",
+        "createdDateTime": "2023-03-12T00:00:00.000Z",
+        "lastModifiedDateTime": "2023-03-12T00:00:00.000Z",
+        "products@odata.type": "Collection(String)",
+        "products": [
+          "SharePoint"
+        ],
+        "metadata@odata.type": "Collection(String)",
+        "metadata": [
+          "CLIENT-SIDE-DEV=React",
+          "SPFX-VERSION=1.16.1"
+        ]
+      },
+      "content": {
+        "value": "This sample contains a SharePoint Framework web part and an Azure function that uses the Open AI API to summarize a SharePoint page in multiple languages.",
+        "type": "text"
+      },
+      "acl": [
+        {
+          "accessType": "grant",
+          "type": "everyone",
+          "value": "everyone"
+        }
+      ]
+    },
+    "error": {
+      "statusCode": 400,
+      "code": "InvalidRequest",
+      "requestId": "0d9bf7e3-356c-4849-bb69-4d5a702cfa39",
+      "date": "2023-12-01T14:55:18.000Z",
+      "body": "{\"code\":\"InvalidRequest\",\"message\":\"The request is malformed or incorrect.\",\"innerError\":{\"date\":\"2023-12-01T20:25:18\",\"request-id\":\"0d9bf7e3-356c-4849-bb69-4d5a702cfa39\",\"client-request-id\":\"609b5d8c-3709-5318-b29c-92a1b454f6be\"}}",
+      "headers": {}
+    }
+  },
+  {
+    "sample": {
+      "id": "pnp-change-owner-group-membership",
+      "properties": {
+        "title": "Change group membership of all SharePoint Online sites",
+        "description": "Script which downgrades the permission to the default member group.",
+        "authors@odata.type": "Collection(String)",
+        "authors": [
+          "Arjun Menon"
+        ],
+        "authorsPictures@odata.type": "Collection(String)",
+        "authorsPictures": [
+          "https://avatars.githubusercontent.com/u/10369964?v=4"
+        ],
+        "imageUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/change-owner-group-membership/assets/preview.png",
+        "iconUrl": "https://raw.githubusercontent.com/pnp/media/master/pnp-logos-generics/png/teal/300w/pnp-samples-teal-300.png",
+        "url": "https://adoption.microsoft.com/sample-solution-gallery/sample/pnp-change-owner-group-membership/",
+        "createdDateTime": "2022-03-19T00:00:00.000Z",
+        "lastModifiedDateTime": "2023-02-28T00:00:00.000Z",
+        "products@odata.type": "Collection(String)",
+        "products": [
+          "SharePoint"
+        ],
+        "metadata@odata.type": "Collection(String)",
+        "metadata": [
+          "CLI-FOR-MICROSOFT365=7.0.0"
+        ]
+      },
+      "content": {
+        "value": "Script which downgrades the permission to the default member group.",
+        "type": "text"
+      },
+      "acl": [
+        {
+          "accessType": "grant",
+          "type": "everyone",
+          "value": "everyone"
+        }
+      ]
+    },
+    "error": {
+      "statusCode": 400,
+      "code": "InvalidRequest",
+      "requestId": "8857ae94-618e-4137-a1d5-a3c4b5c6350d",
+      "date": "2023-12-01T14:55:20.000Z",
+      "body": "{\"code\":\"InvalidRequest\",\"message\":\"The request is malformed or incorrect.\",\"innerError\":{\"date\":\"2023-12-01T20:25:20\",\"request-id\":\"8857ae94-618e-4137-a1d5-a3c4b5c6350d\",\"client-request-id\":\"0eea4c66-e1a4-b149-aae1-77ec000c5151\"}}",
+      "headers": {}
+    }
+  },
+  {
+    "sample": {
+      "id": "pnp-add-app-catalog",
+      "properties": {
+        "title": "CLI - Add App Catalog to SharePoint site",
+        "description": "Script will create an app catalog for that site.",
+        "authors@odata.type": "Collection(String)",
+        "authors": [
+          "David Ramalho"
+        ],
+        "authorsPictures@odata.type": "Collection(String)",
+        "authorsPictures": [
+          null
+        ],
+        "imageUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/add-app-catalog/assets/preview.png",
+        "iconUrl": "https://raw.githubusercontent.com/pnp/media/master/pnp-logos-generics/png/teal/300w/pnp-samples-teal-300.png",
+        "url": "https://adoption.microsoft.com/sample-solution-gallery/sample/pnp-add-app-catalog/",
+        "createdDateTime": "2020-03-28T00:00:00.000Z",
+        "lastModifiedDateTime": "2023-02-28T00:00:00.000Z",
+        "products@odata.type": "Collection(String)",
+        "products": [
+          "SharePoint"
+        ],
+        "metadata@odata.type": "Collection(String)",
+        "metadata": [
+          "CLI-FOR-MICROSOFT365=6.3.0"
+        ]
+      },
+      "content": {
+        "value": "Script will create an app catalog for that site.",
+        "type": "text"
+      },
+      "acl": [
+        {
+          "accessType": "grant",
+          "type": "everyone",
+          "value": "everyone"
+        }
+      ]
+    },
+    "error": {
+      "statusCode": 500,
+      "code": "GeneralException",
+      "requestId": "a3ec499c-df27-41de-b3ef-7d0206a9eb87",
+      "date": "2023-12-01T14:55:22.000Z",
+      "body": "{\"code\":\"GeneralException\",\"message\":\"There was an internal server error while processing the request.\",\"innerError\":{\"date\":\"2023-12-01T20:25:22\",\"request-id\":\"a3ec499c-df27-41de-b3ef-7d0206a9eb87\",\"client-request-id\":\"a8b20a2b-8546-fd59-199a-49923b5835ca\"}}",
+      "headers": {}
+    }
+  },
+  {
+    "sample": {
+      "id": "pnp-add-custom-clientside-webpart-to-modern-page",
+      "properties": {
+        "title": "Add custom client-side web part to modern page",
+        "description": "This sample helps you add your web part to the page.",
+        "authors@odata.type": "Collection(String)",
+        "authors": [
+          "Yannick Plenevaux"
+        ],
+        "authorsPictures@odata.type": "Collection(String)",
+        "authorsPictures": [
+          "https://avatars.githubusercontent.com/u/8345556?v=4"
+        ],
+        "imageUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/add-custom-clientside-webpart-to-modern-page/assets/preview.png",
+        "iconUrl": "https://raw.githubusercontent.com/pnp/media/master/pnp-logos-generics/png/teal/300w/pnp-samples-teal-300.png",
+        "url": "https://adoption.microsoft.com/sample-solution-gallery/sample/pnp-add-custom-clientside-webpart-to-modern-page/",
+        "createdDateTime": "2020-05-20T00:00:00.000Z",
+        "lastModifiedDateTime": "2023-02-28T00:00:00.000Z",
+        "products@odata.type": "Collection(String)",
+        "products": [
+          "SharePoint"
+        ],
+        "metadata@odata.type": "Collection(String)",
+        "metadata": [
+          "CLI-FOR-MICROSOFT365=6.3.0"
+        ]
+      },
+      "content": {
+        "value": "This sample helps you add your web part to the page.",
+        "type": "text"
+      },
+      "acl": [
+        {
+          "accessType": "grant",
+          "type": "everyone",
+          "value": "everyone"
+        }
+      ]
+    },
+    "error": {
+      "statusCode": 400,
+      "code": "InvalidRequest",
+      "requestId": "6e025167-93d2-43d9-bebd-d51cee1b19c4",
+      "date": "2023-12-01T14:55:22.000Z",
+      "body": "{\"code\":\"InvalidRequest\",\"message\":\"The request is malformed or incorrect.\",\"innerError\":{\"date\":\"2023-12-01T20:25:22\",\"request-id\":\"6e025167-93d2-43d9-bebd-d51cee1b19c4\",\"client-request-id\":\"072b7288-195b-83ec-36de-3c1231ba4c23\"}}",
+      "headers": {}
+    }
+  },
+  {
+    "sample": {
+      "id": "pnp-hide-list-from-site-contents",
+      "properties": {
+        "title": "CLI - Hide SharePoint list from Site Contents",
+        "description": "hides the SharePoint list from the UI.",
+        "authors@odata.type": "Collection(String)",
+        "authors": [
+          "David Ramalho"
+        ],
+        "authorsPictures@odata.type": "Collection(String)",
+        "authorsPictures": [
+          null
+        ],
+        "imageUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/hide-list-from-site-contents/assets/preview.png",
+        "iconUrl": "https://raw.githubusercontent.com/pnp/media/master/pnp-logos-generics/png/teal/300w/pnp-samples-teal-300.png",
+        "url": "https://adoption.microsoft.com/sample-solution-gallery/sample/pnp-hide-list-from-site-contents/",
+        "createdDateTime": "2020-03-28T00:00:00.000Z",
+        "lastModifiedDateTime": "2023-02-28T00:00:00.000Z",
+        "products@odata.type": "Collection(String)",
+        "products": [
+          "SharePoint"
+        ],
+        "metadata@odata.type": "Collection(String)",
+        "metadata": [
+          "CLI-FOR-MICROSOFT365=6.3.0"
+        ]
+      },
+      "content": {
+        "value": "hides the SharePoint list from the UI.",
+        "type": "text"
+      },
+      "acl": [
+        {
+          "accessType": "grant",
+          "type": "everyone",
+          "value": "everyone"
+        }
+      ]
+    },
+    "error": {
+      "statusCode": 500,
+      "code": "GeneralException",
+      "requestId": "7a6713e6-057a-46e2-94f8-ac5287b36cb4",
+      "date": "2023-12-01T14:55:24.000Z",
+      "body": "{\"code\":\"GeneralException\",\"message\":\"There was an internal server error while processing the request.\",\"innerError\":{\"date\":\"2023-12-01T20:25:24\",\"request-id\":\"7a6713e6-057a-46e2-94f8-ac5287b36cb4\",\"client-request-id\":\"066b71a4-cbec-ca93-aeed-8f08aa50b926\"}}",
+      "headers": {}
+    }
+  },
+  {
+    "sample": {
+      "id": "pnp-ensure-siteassets-library",
+      "properties": {
+        "title": "Ensure the Site Assets Library is created",
+        "description": "Ensure that the Site Assets library is created.",
+        "authors@odata.type": "Collection(String)",
+        "authors": [
+          "Phil Harding"
+        ],
+        "authorsPictures@odata.type": "Collection(String)",
+        "authorsPictures": [
+          null
+        ],
+        "imageUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/ensure-siteassets-library/assets/preview.png",
+        "iconUrl": "https://raw.githubusercontent.com/pnp/media/master/pnp-logos-generics/png/teal/300w/pnp-samples-teal-300.png",
+        "url": "https://adoption.microsoft.com/sample-solution-gallery/sample/pnp-ensure-siteassets-library/",
+        "createdDateTime": "2020-04-12T00:00:00.000Z",
+        "lastModifiedDateTime": "2023-02-28T00:00:00.000Z",
+        "products@odata.type": "Collection(String)",
+        "products": [
+          "SharePoint"
+        ],
+        "metadata@odata.type": "Collection(String)",
+        "metadata": [
+          "CLI-FOR-MICROSOFT365=6.3.0"
+        ]
+      },
+      "content": {
+        "value": "Ensure that the Site Assets library is created.",
+        "type": "text"
+      },
+      "acl": [
+        {
+          "accessType": "grant",
+          "type": "everyone",
+          "value": "everyone"
+        }
+      ]
+    },
+    "error": {
+      "statusCode": 500,
+      "code": "GeneralException",
+      "requestId": "53b8e5df-b76e-43ba-b351-6570093e406b",
+      "date": "2023-12-01T14:55:24.000Z",
+      "body": "{\"code\":\"GeneralException\",\"message\":\"There was an internal server error while processing the request.\",\"innerError\":{\"date\":\"2023-12-01T20:25:24\",\"request-id\":\"53b8e5df-b76e-43ba-b351-6570093e406b\",\"client-request-id\":\"cee4579f-130b-7336-d7bd-71f77b0141bc\"}}",
+      "headers": {}
+    }
+  },
+  {
+    "sample": {
+      "id": "pnp-sp-dev-teams-sample-app-acs-calling",
+      "properties": {
+        "title": "Azure Communication Services – Teams InterOp with Call Routing",
+        "description": "The sample supports Azure Communication Services (ACS) and Teams Interoperation to allow citizen end users get in touch with an SME / Support Agent belonging to a business entity over a video call.",
+        "authors@odata.type": "Collection(String)",
+        "authors": [
+          "Sathya Raveendran",
+          "Saikrishna Neeli",
+          "Arun Kumar Anaparthi"
+        ],
+        "authorsPictures@odata.type": "Collection(String)",
+        "authorsPictures": [
+          null,
+          "https://github.com/Saikrishna-MSFT.png",
+          "https://github.com/arun-msft.png"
+        ],
+        "imageUrl": "https://github.com/pnp/teams-dev-samples/raw/main/samples/app-acs-calling/Docs/GIF/PlaceACall.gif",
+        "iconUrl": "https://raw.githubusercontent.com/pnp/media/master/pnp-logos-generics/png/teal/300w/pnp-samples-teal-300.png",
+        "url": "https://adoption.microsoft.com/sample-solution-gallery/sample/pnp-sp-dev-teams-sample-app-acs-calling/",
+        "createdDateTime": "2021-06-18T00:00:00.000Z",
+        "lastModifiedDateTime": "2021-06-18T00:00:00.000Z",
+        "products@odata.type": "Collection(String)",
+        "products": [
+          "Teams"
+        ],
+        "metadata@odata.type": "Collection(String)",
+        "metadata": [
+          "TEAMS-SAMPLE-SOURCE=pnp",
+          "TEAMS-SAMPLE-TYPE=demo",
+          "TEAMS-CLIENT-LANGUAGE=csharp",
+          "TEAMS-CLIENT-PLATFORM=spa",
+          "TEAMS-CLIENT-UI=",
+          "TEAMS-SERVER-LANGUAGE=",
+          "TEAMS-SERVER-PLATFORM=netcore",
+          "TEAMS-BOT-FRAMEWORK=bot46",
+          "TEAMS-FEATURES=bot",
+          "TEAMS-GENERATOR="
+        ]
+      },
+      "content": {
+        "value": "The sample supports Azure Communication Services (ACS) and Teams Interoperation to allow citizen end users get in touch with an SME / Support Agent belonging to a business entity over a video call.",
+        "type": "text"
+      },
+      "acl": [
+        {
+          "accessType": "grant",
+          "type": "everyone",
+          "value": "everyone"
+        }
+      ]
+    },
+    "error": {
+      "statusCode": 500,
+      "code": "GeneralException",
+      "requestId": "94689443-4349-4d68-9583-297e198c32bb",
+      "date": "2023-12-01T14:56:04.000Z",
+      "body": "{\"code\":\"GeneralException\",\"message\":\"There was an internal server error while processing the request.\",\"innerError\":{\"date\":\"2023-12-01T20:26:04\",\"request-id\":\"94689443-4349-4d68-9583-297e198c32bb\",\"client-request-id\":\"ff2787b3-570d-caf3-86d5-33f062271e76\"}}",
+      "headers": {}
+    }
+  },
+  {
+    "sample": {
+      "id": "pnp-sp-dev-teams-sample-app-ReporterPlus",
+      "properties": {
+        "title": "ReporterPlus - Teams Device Capabilities Application",
+        "description": "The sample app demonstrates the power of integrating Teams platform with device capabilities such as camera, QR or barcode scanner, photo gallery and microphone",
+        "authors@odata.type": "Collection(String)",
+        "authors": [
+          "Veera Venkata Sai Pothan Thota",
+          "Sathya Raveendran"
+        ],
+        "authorsPictures@odata.type": "Collection(String)",
+        "authorsPictures": [
+          "https://avatars.githubusercontent.com/u/80528379",
+          null
+        ],
+        "imageUrl": "https://pnp.github.io/teams-dev-samples/img/thumbnails/app-ReporterPlus.png",
+        "iconUrl": "https://raw.githubusercontent.com/pnp/media/master/pnp-logos-generics/png/teal/300w/pnp-samples-teal-300.png",
+        "url": "https://adoption.microsoft.com/sample-solution-gallery/sample/pnp-sp-dev-teams-sample-app-ReporterPlus/",
+        "createdDateTime": "2021-06-24T00:00:00.000Z",
+        "lastModifiedDateTime": "2021-06-24T00:00:00.000Z",
+        "products@odata.type": "Collection(String)",
+        "products": [
+          "Teams"
+        ],
+        "metadata@odata.type": "Collection(String)",
+        "metadata": [
+          "TEAMS-SAMPLE-SOURCE=pnp",
+          "TEAMS-SAMPLE-TYPE=demo",
+          "TEAMS-CLIENT-LANGUAGE=csharp",
+          "TEAMS-CLIENT-PLATFORM=spa",
+          "TEAMS-CLIENT-UI=",
+          "TEAMS-SERVER-LANGUAGE=",
+          "TEAMS-SERVER-PLATFORM=netcore",
+          "TEAMS-BOT-FRAMEWORK=bot46",
+          "TEAMS-FEATURES=bot, msgext",
+          "TEAMS-GENERATOR="
+        ]
+      },
+      "content": {
+        "value": "The sample app demonstrates the power of integrating Teams platform with device capabilities such as camera, QR or barcode scanner, photo gallery and microphone",
+        "type": "text"
+      },
+      "acl": [
+        {
+          "accessType": "grant",
+          "type": "everyone",
+          "value": "everyone"
+        }
+      ]
+    },
+    "error": {
+      "statusCode": 500,
+      "code": "GeneralException",
+      "requestId": "ccaf47ec-002a-46a4-bf2c-b3826ed136b8",
+      "date": "2023-12-01T14:56:07.000Z",
+      "body": "{\"code\":\"GeneralException\",\"message\":\"There was an internal server error while processing the request.\",\"innerError\":{\"date\":\"2023-12-01T20:26:07\",\"request-id\":\"ccaf47ec-002a-46a4-bf2c-b3826ed136b8\",\"client-request-id\":\"5531dddb-42b5-bbae-374b-2bcfd0d86c52\"}}",
+      "headers": {}
+    }
+  }
+]
